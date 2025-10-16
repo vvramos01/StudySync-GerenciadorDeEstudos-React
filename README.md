@@ -1,0 +1,1 @@
+# StudySync-GerenciadorDeEstudos-React
