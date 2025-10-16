@@ -1,0 +1,110 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2b4c7e;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form button {
+  background: #2b4c7e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #1f3a60;
+}
+
+.list .item {
+  display: flex;
+  justify-content: space-between;
+  background: #f9fafb;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.list .item.done {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+.buttons button {
+  margin-left: 6px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons .remove {
+  background: #dc2626;
+  color: white;
+}
+
+.progress {
+  position: relative;
+  height: 20px;
+  background: #e5e7eb;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #10b981;
+  border-radius: 10px;
+  transition: width 0.4s;
+}
+
+.progress span {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  font-size: 12px;
+  color: #333;
+}
+
+.empty {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+}
